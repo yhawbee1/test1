@@ -9,7 +9,7 @@ const [active, setActive] = useState('Home')
 
   return (
     <>
-    <header className='w-3/5 h-fit py-3 px-8 bg-white/70 fixed top-8 backdrop-blur-sm rounded-full shadow-2xl'>
+    <header className='w-3/5 h-fit py-3 px-8 bg-white/70 fixed top-8 backdrop-blur-sm rounded-full shadow-2xl z-30'>
         <nav className=''>
             <ul className='flex justify-around'>
             {navs.map((navItem, idx) => (
